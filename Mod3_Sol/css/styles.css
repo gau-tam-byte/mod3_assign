@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+.row {
+	width: 100%;
+	margin: auto;
+}
+body {
+	background: rgb(215,189,226);
+}
+h1 {
+	text-align: center;
+	padding: 10px;
+    margin: 30px;
+    font-weight:bold;
+    font-size: 400%;
+}
+#para {
+	border: 2px solid black;
+	padding: 5px;
+	background: rgb(212,172,13);
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.c1 {
+	font-size: 20px;
+	text-align: center;
+}
+.para {
+	margin-top: 10px;
+}
+#para section hr {
+	width: 50%;
+}
+#header-nav {
+	background-color:rgb(40,116,166);  
+	border-radius: 0;
+	margin-bottom: 0px;
+	border: 0;
+}
+.navbar-brand h1 {
+	font-family: 'Big Shoulders Stencil Display', cursive;
+	color:black;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #100;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .10;
+}
+#nav-list {
+	background:rgb(203,67,53);
+}
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: rgb(46,155,86);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+
